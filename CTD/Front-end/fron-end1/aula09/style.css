@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.square{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 1%;
+}
+
+
+
+.frist-square{
+
+   
+    background-color: black;
+}
+
+.second-square{
+    background-color: brown;
+    position:relative;
+    top: 200px;
+}
+
+.thirt-square{
+
+    background-color:chocolate;
+    position: absolute;
+
+}
+
+header{
+    background-color: cyan;
+    padding: 12px 32px;
+    position: fixed;
+}
