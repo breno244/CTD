@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1{
+    background-color: thistle;
+}
+
+button{
+
+    background-color: #ce1a14;
+    color: white;
+    border: 0;
+    padding: 20px;
+   
+    font-size: 20px;
+    border-radius: 10px;
+    display: block;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    margin: 0 auto;
+}

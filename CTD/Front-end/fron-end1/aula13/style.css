@@ -1,0 +1,54 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+main{
+
+    padding: 32px;
+}
+
+.meuBotao{
+
+    background-color: #5514ce;
+    color: white;
+    border: 0;
+    padding: 24px;
+    font-size: 24px;
+    border-radius: 12px;
+    display: block;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    margin: 0 auto;
+} b 
+
+.meuBotao:hover{
+
+    background-color: #db5b45;
+    transform: scale(1.05) skew(18deg) rotate(360deg);
+
+
+}
+.fantasma{
+    display: block;
+    font-size: 200px;
+    text-align: center;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes floating{
+    0%{
+        transform: translate(0, -30px);
+    }
+    50%{
+        transform: translate(0, 30px);
+    }
+    100%{
+        transform: translate(0, -30px);
+    }
+}
+
