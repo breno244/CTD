@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+h1 {
+    font-family: 'Qahiri', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
+
+article {
+
+    background-image: url('https://neilpatel.com/wp-content/uploads/2019/08/fotos-de-paisagem-para-instagram.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 400px;
+    
+}
