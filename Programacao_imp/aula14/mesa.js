@@ -1,5 +1,5 @@
-function mult(a,b){
-    return a*b;
+function media(x,y,z) {
+    return (x+y+z)/3
 }
 
-module 
+module.exports = media;
