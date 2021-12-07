@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: brown;
+}
+
+main{
+
+    width: 800%;
+    height: 800%;
+    background-color: aqua;
+
+}
+
+.meu{
+    width: 50%;
+    height: 40%;
+    background-color: aquamarine;
+
+}
+
+.post{
+
+    height: 54%;
+    width: 40%;
+    background-color: blueviolet;
+}
