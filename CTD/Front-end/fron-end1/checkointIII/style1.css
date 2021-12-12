@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;1,200&family=Petemoss&family=Qahiri&family=Roboto+Mono:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+.logoPrincipal {
+  width: 50px;
+}
+
+header {
+  background-color: black;
+}
+
+header .inicio {
+  text-align-last: right;
+  text-decoration: none;
+}
+
+header a {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 24px;
+}
+
+header button {
+  background-color: red;
+  border-radius: 10px;
+}
+
+
+
+.container{
+    height: 100%;
+    align-content: center;
+    }
+    
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.144) !important;
+    }
+    
+.social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: red;
+    }
+    
+  
+.input-group-prepend span{
+    width: 50px;
+    background-color: red;
+    color: black;
+    border:0 !important;
+    }
+    
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+.remember{
+    color: black;
+    }
+    
+.remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+.login_btn{
+    color: black;
+    background-color: red;
+    width: 350px;
+    height: 50px;
+    }
+    
+.login_btn:hover{
+    color: black;
+    background-color: red;
+    }
+      
+.links{
+    color:black;
+    }
+    
+.links a{
+    margin-left: 4px;
+    }
+
+footer {
+        background-color: #fff;
+      }
+      
+footer img {
+        height: 20px;
+      }
+      
